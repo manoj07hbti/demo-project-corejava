@@ -11,7 +11,7 @@ public class VariableDay1 {
         //store value into variable
         //varName=value;
         name= "Rahul"; // always use double quot while using String value
-        //System.out.println("Message : " +varName);
+
         System.out.println("Printing Name : " +name);
 
         //I need to store age of a person
