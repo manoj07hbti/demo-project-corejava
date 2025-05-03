@@ -2,6 +2,7 @@ package variable;
 
 public class VariableDay1 {
 
+    //This code is to learn about variables
     public static void main(String[] args) {
         // This code is example of basic variables in Java
         // SYNTAX : Datatype varName;
