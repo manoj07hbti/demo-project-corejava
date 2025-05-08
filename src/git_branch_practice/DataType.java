@@ -1,4 +1,4 @@
-package feature_practice;
+package git_branch_practice;
 
 public class DataType {
     public static void main(String[] args) {
