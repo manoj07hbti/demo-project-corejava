@@ -41,16 +41,19 @@ public class ClassTest {
         System.out.println("subject= "+subject);
         System.out.println("rollno= "+rollno);
         System.out.println("marks= "+marks+"/"+outof);
+        System.out.println("  ");
 
         System.out.println("student2= "+student2);
         System.out.println("subject2= "+subject2);
         System.out.println("rollno2= "+rollno2);
         System.out.println("marks2= "+marks2+"/"+outof2);
+        System.out.println("  ");
 
         System.out.println("student3= "+student3);
         System.out.println("subject3= "+subject3);
         System.out.println("rollno3= "+rollno3);
         System.out.println("marks3= "+marks3+"/"+outof3);
+        System.out.println("  ");
 
         System.out.println("student4= "+student4);
         System.out.println("subject4= "+subject4);
