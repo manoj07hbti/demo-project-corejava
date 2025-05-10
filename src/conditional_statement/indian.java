@@ -5,7 +5,7 @@ public class indian {
         //if candidate is from INDIA then print INDIAN.
         String citizenship = "INDIA";
         if(citizenship == "INDIA")
-            System.out.println("candidate is from "+citizenship);
+            System.out.println("candidate is INDIAN ");
 
     }
 }
