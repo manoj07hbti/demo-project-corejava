@@ -8,13 +8,13 @@ public class EligibilityForDrivingLicence {
 
 //person is eligible for driving licence based on condition of age(Age>18).
 
-        if (age>18){
+        if (age > 18){
             System.out.println("The Person is eligible for driving licence..: "+age);
         }
 
 //person is eligible for driving licence based on condition of age(Age<18).
 
-        if (age<18){
+        if (age < 18){
             System.out.println("The Person is not eligible for driving licence..: "+age);
         }
 
