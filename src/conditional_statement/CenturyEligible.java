@@ -6,12 +6,12 @@ public class CenturyEligible {
 
         int score=99;
 //check century of a batsman
-        if (score == 100){
+        if (score==100){
             System.out.println("Century of a Batsman..: "+score);
         }
 
         //check not century of a batsman
-        if (score != 100){
+        if (score!=100){
             System.out.println("Century is not of a Batsman..: "+score);
         }
     }
