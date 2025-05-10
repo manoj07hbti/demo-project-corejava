@@ -1,4 +1,4 @@
-package testNeeshu_;
+package test_neeshu;
 
 public class AreaCircle {
     public static void main(String[] args) {
