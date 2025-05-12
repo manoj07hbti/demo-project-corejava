@@ -7,6 +7,7 @@ public class CandidateExam {
         int marks=32;
 
 //if candidate has marks greater than 33 then it will print cleared the exam.
+
         if (marks>=33){
             System.out.println(name+"'s Exam Cleared. he got "+marks +" Marks");
         }
