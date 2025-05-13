@@ -19,17 +19,22 @@ public class DemoIf {
                 System.out.println("Hurray!!! Batsman has scored a century!");
         }
 //Question 4
+        int batsmanrohit=97;
+        if(batsmanrohit<100) {
+            System.out.println("Oops!!! Batsman has failed to score his century!");
+        }
+//Question 5
     int price= 6999;
      if(price>5000){
          System.out.println("Item is costly!!");
      }
-//Question 5
+//Question 6
         String city ="Pune";
                 if(city=="Pune"){
                     System.out.println("Man is from Pune");
 
         }
-//Question 6
+//Question 7
         int age3=21;
                 if(age3>18) {
                     System.out.println("Welcome to voting system!!");
@@ -37,7 +42,7 @@ public class DemoIf {
                 if(age3<18){
                     System.out.println("You are not eligible for voting as your age is less than 18 year!!");
                 }
-//Question 7
+//Question 8
         int marks=32;
                 if(marks>33){
                     System.out.println("Cleared the exam!!");
@@ -45,7 +50,7 @@ public class DemoIf {
                 if(marks<33){
                     System.out.println("Not cleared the exam!!");
                 }
-//Question 8
+//Question 9
         String harish="India";
                 if(harish=="India"){
                     System.out.println("He is Indian!");
