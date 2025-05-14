@@ -1,6 +1,6 @@
 package IfElse_statement_assign;
 
-public class IfElse_statement {
+public class voting_age {
 
     //write a code to check voting elligiblity .
     //if candidate is elligible then show mesage "Welcome to Voting System"
