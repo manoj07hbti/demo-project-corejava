@@ -55,14 +55,14 @@ public class DemoIf {
         if (city=="pune"){
             System.out.println("person city is pune...");
         }
-        //write a code to check voting elligiblity
+        //write a code to check voting eligibility
         age=32;
         if (age>=18){
             System.out.println("welcome to voting system..");
         }
         age=15;
         if (age<18){
-            System.out.println("you are not elligible for voting as your age is less then 18 years...");
+            System.out.println("you are not eligible for voting as your age is less then 18 years...");
         }
 
 
