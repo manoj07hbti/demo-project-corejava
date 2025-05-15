@@ -68,6 +68,17 @@ public class ConditionalStatement {
         if (vote<16){
             System.out.println("you are not eligible for voting system");
         }
+
+        String city="Reasi";
+
+        if (city=="Reasi"){
+            System.out.println("person city is Reasi....");
+        }
+
+        if (city=="pune"){
+            System.out.println("person city is not Reasi");
+        }
+
     }
 
 }
