@@ -7,7 +7,7 @@ public class voting_age {
     //if not then "you are not elligible for Voting as your age is less than 18 Year"
 
     public static void main(String[] args) {
-        int age = 55;
+        int age = 18;
         if (age >= 18) {
             System.out.println("Welcome to voting System " + age);
         } else{
