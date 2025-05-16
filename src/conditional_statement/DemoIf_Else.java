@@ -1,4 +1,4 @@
-package If_Else;
+package conditional_statement;
 
 public class DemoIf_Else {
     public static void main(String[] args) {

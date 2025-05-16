@@ -1,4 +1,4 @@
-package Nested_If;
+package conditional_statement;
 
 public class Nested_If__Division {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package Nested_If;
+package conditional_statement;
 
-public class Odd_Even {
+public class NestedIf_Odd_Even {
     public static void main(String[] args) {
 
     int number=1;
