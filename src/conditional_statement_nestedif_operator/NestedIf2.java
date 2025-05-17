@@ -1,4 +1,4 @@
-package conditional_statement;
+package conditional_statement_nestedif_operator;
 
 public class NestedIf2 {
     public static void main(String[] args) {
