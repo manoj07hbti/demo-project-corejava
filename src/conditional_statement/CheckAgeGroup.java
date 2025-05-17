@@ -10,6 +10,7 @@ public class CheckAgeGroup {
   3. age >=60 : Old Age*/
 
         int age=60;
+// Using Conditional Statement
 
         if (age>0 && age<18){
             System.out.println("Child");
