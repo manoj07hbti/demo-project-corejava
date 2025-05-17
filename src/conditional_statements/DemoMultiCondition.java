@@ -40,7 +40,7 @@ public class DemoMultiCondition {
 
         //Write a code to identify  number which is not divisible by 3.
 
-        int number =17;
+        int number =10;
         if (number%3==1 || number%3==2) {
             System.out.println("number is not divisible by 3");
         }

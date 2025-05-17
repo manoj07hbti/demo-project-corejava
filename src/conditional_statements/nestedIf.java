@@ -39,6 +39,19 @@ public class nestedIf {
         }
 
 
+        number=9;
+
+
+            if (number%3==1) {
+                System.out.println("this number is not divisible by 3");
+                if (number % 3 == 2) {
+                    System.out.println("this number is not divisible by 3");
+                }
+
+            }
+
+
+
 
     }
 }
