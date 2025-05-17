@@ -1,6 +1,6 @@
-package assisgnment;
+package conditional_statement;
 
-public class ConditionalStatement {
+public class DemoIF {
 
     public static void main(String[] args) {
 

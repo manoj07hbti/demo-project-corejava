@@ -1,4 +1,4 @@
-package assisgnment;
+package conditional_statement;
 
 public class NestedIF {
 
