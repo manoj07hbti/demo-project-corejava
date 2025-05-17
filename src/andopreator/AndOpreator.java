@@ -6,8 +6,7 @@ public class AndOpreator {
 //  Wrtie a code to check % of Student
 //  1. percentage >=33 and <60  : Second division
 
-        int percentage = 33;
-        percentage = 60;
+       int percentage = 50;
 
         if (percentage >=33 && percentage <=60) {
             System.out.println("student got second division= "+percentage + "%");
@@ -17,8 +16,7 @@ public class AndOpreator {
 
         // 2. percentage >=60 and <75: First Division
 
-        percentage =60;
-        percentage =75;
+        percentage =65;
 
         if (percentage >=60 && percentage <=75){
             System.out.println("student got first division= "+percentage +"%");
@@ -28,8 +26,7 @@ public class AndOpreator {
 
 //        3. percentage >75 : Gold Madelist
 
-        percentage= 75;
-        percentage=90;
+        percentage=85;
 
         if (percentage <=90 && percentage >=75){
             System.out.println("student got Gold Madelist= "+percentage +"%");
