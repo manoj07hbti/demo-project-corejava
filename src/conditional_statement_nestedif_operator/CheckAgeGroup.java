@@ -9,10 +9,25 @@ public class CheckAgeGroup {
   2. age >=18  and <=40 : Young
   3. age >=60 : Old Age*/
 
-        int age=60;
-// Using Conditional Statement
+        int age=30;
 
-        if (age>0 && age<18){
+        if (age>0 && age<=40){
+            if (age>=18){
+                System.out.println("This age is under Young Generation Category..."+age);
+            }else {
+                System.out.println("This age is under Child Category..."+age);
+            }
+        }else{
+            System.out.println("This age is Under Old Age Category..."+age);
+        }
+
+
+
+
+
+        // Using only If and else Conditional Statement
+
+/*        if (age>0 && age<18){
             System.out.println("Child");
         }else{
             if (age>=18 && age<=40){
@@ -23,6 +38,8 @@ public class CheckAgeGroup {
                 }
             }
         }
+*/
+
 
     }
 }
