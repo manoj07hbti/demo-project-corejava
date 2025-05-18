@@ -13,12 +13,12 @@ public class AndOpMultiCondition {
             System.out.println("Student is Gold medalist");
         }
         //Question 2
-        int age=43;
+        int age=82;
         if (age>0 && age<18){
             System.out.println("you are child");
         }else if (age>=18 && age<=40){
             System.out.println("you are young");
-        }else if(age>=60){
+        }else if(age>=41 && age<=60){
             System.out.println("you are in old age");
         }
     //Quesiton 3
