@@ -12,6 +12,7 @@ public class Assignment_Day12 {
         }else{
             System.out.println("Not second division: "+marks);
         }
+
         marks=65;
         if(marks>=60 && marks<75){
             System.out.println("First division: "+marks);
@@ -29,7 +30,7 @@ public class Assignment_Day12 {
         // Q.2 Write a code to check Age group
 
         int age=15;
-        if (age>0 && age>=18){
+        if (age>0 && age<=18){
             System.out.println("child: " +age);
         }else{
             System.out.println("Not a child: " +age);
@@ -45,6 +46,8 @@ public class Assignment_Day12 {
         age=75;
         if(age>=60){
             System.out.println("Old age: "+age);
+        } else {
+            System.out.println("Not Old age: "+age);
         }
 
         // Q.3 Write a code to identify  number which is not divisible by 3
@@ -53,7 +56,7 @@ public class Assignment_Day12 {
         if(number>0 && number%3==0){
             System.out.println("Number is divisible by 3: "+number);
         }else{
-            System.out.println("Number is not divisible by 3");
+            System.out.println("Not Old age: "+age);
         }
 
     }

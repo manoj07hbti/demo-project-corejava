@@ -1,6 +1,6 @@
 package conditional_statement;
 
-public class AndOpMultiCond {
+public class And_Op_MultiCond {
     public static void main(String[] args) {
 
        // checking either AQI or city should we good
@@ -15,7 +15,7 @@ public class AndOpMultiCond {
 
         aqi=130;
         if(city=="jammu" && aqi<=150){
-            System.out.println("Accepeted: "+city + aqi);
+            System.out.println("Accepeted: " +city + aqi);
         }else {
             System.out.println("Not accepted: " +city + aqi);
         }
@@ -32,8 +32,12 @@ public class AndOpMultiCond {
             System.out.println("Accepted: "+city +aqi);
         }else{
             System.out.println("Not accepted: " +city +aqi);
-
-
         }
+
+
+
+        String boy="arjun";
+
+
     }
 }

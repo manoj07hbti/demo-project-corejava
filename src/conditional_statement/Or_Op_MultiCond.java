@@ -1,6 +1,6 @@
 package conditional_statement;
 
-public class Or_opMultiCond {
+public class Or_Op_MultiCond {
     public static void main(String[] args) {
 
         // Selecting students for basketball team
