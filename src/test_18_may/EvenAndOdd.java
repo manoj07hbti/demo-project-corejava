@@ -4,6 +4,8 @@ public class EvenAndOdd {
 
     public static void main(String[] args) {
 
+// write a code to check if any given number is  even or odd number
+
         int number =14;
         if (number %2==0){
             System.out.println(number +" is an even number");
