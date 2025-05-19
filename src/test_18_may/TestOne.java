@@ -36,7 +36,7 @@ public class TestOne {
 
         number=18;
 
-        if (number%4==0){
+        if (number%2==0){
             System.out.println("this is not a odd number");
         }else{
             System.out.println("this is a odd number");
