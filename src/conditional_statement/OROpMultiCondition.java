@@ -51,5 +51,6 @@ public class OROpMultiCondition {
             System.out.println("student was fail in there class");
         }
 
+
     }
 }
