@@ -21,13 +21,21 @@ public class NotOpMultiCondition {
 
         int number=55;
 
-        if (number%5==0){
-            System.out.println("the number is divisible by 5");
-        }else {
+        if (!(number%5==0)){
             System.out.println("the number is not divisible by 5");
+        }else {
+            System.out.println("the number is divisible by 5");
         }
 
         //write a code to check number is even or odd?
+
+        number=12;
+
+        if (number*2==24){
+            System.out.println("this is even number");
+        }else {
+            System.out.println("this is not even number");
+        }
 
 
 
