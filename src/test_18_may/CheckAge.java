@@ -10,7 +10,7 @@ public class CheckAge {
         3. age >=60 : Old Age*/
         int age = 61;
 
-        if (age > 0) {
+        if (age >=0 && age<60) {
             if (age < 18) {
                 System.out.println("This age is under Child Category..."+age);
             } else if (age >= 18 && age <= 40) {
