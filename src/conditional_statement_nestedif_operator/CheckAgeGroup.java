@@ -9,7 +9,7 @@ public class CheckAgeGroup {
   2. age >=18  and <=40 : Young
   3. age >=60 : Old Age*/
 
-        int age=12;
+        int age=19;
 
         if (age>0 && age<=40){
             if (age>=18){
