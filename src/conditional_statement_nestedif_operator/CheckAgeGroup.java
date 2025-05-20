@@ -12,10 +12,10 @@ public class CheckAgeGroup {
         int age=19;
 
         if (age>0 && age<=40){
-            if (age>=18){
-                System.out.println("This age is under Young Generation Category..."+age);
+            if (age<=18){
+                System.out.println("This age is under Child Generation Category..."+age);
             }else {
-                System.out.println("This age is under Child Category..."+age);
+                System.out.println("This age is under Young Category..."+age);
             }
         }else{
             System.out.println("This age is Under Old Age Category..."+age);

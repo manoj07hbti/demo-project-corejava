@@ -1,4 +1,4 @@
-package conditional_statement_nestedif_operator;
+package conditional_statement_switch_statmnt;
 
 public class SwitchStatement {
     public static void main(String[] args) {
