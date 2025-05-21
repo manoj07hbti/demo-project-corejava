@@ -6,14 +6,14 @@ public class TestOne {
 
         //write a code to check eligible voter in Pune ?
 
-            String city="pune";
-            int age=15;
+            String city="jammu";
+            int age=22;
 
-            if (city==city && age>=12){
+            if (city=="pune" && age>=18){
 
                 System.out.println("person is eligible of voting in pune ");
             }else {
-                System.out.println("person is not eligible of voting in pune");
+                System.out.println("person is not eligible for voting in pune");
             }
 
        //Write a code to find percentage of given number example: 5% of 500?
@@ -21,7 +21,8 @@ public class TestOne {
         int number=500;
 
 
-            double output=number*5/100;
+            double output=(double) number*5/100;
+
 
         System.out.println("percentage of 500 is "+ output);
 
@@ -34,7 +35,7 @@ public class TestOne {
             System.out.println("this is not even number");
         }
 
-        number=18;
+        number=17;
 
         if (number%2==0){
             System.out.println("this is not a odd number");
@@ -52,7 +53,7 @@ public class TestOne {
         String nation="India";
         String state="Maharashtra";
 
-        if (nation=="India" || state=="Maharashta"){
+        if (nation=="India" && state=="Maharashtra"){
 
             System.out.println("the nationality of person is :"+ nation +" and state is :"+ state);
 
@@ -68,16 +69,16 @@ public class TestOne {
 
         int percentage=46;
 
-        if (percentage>=33 || percentage<60){
+        if (percentage>=33 && percentage<60){
 
             System.out.println("student has second division");
         }else {
             System.out.println("student was fail in there exam");
         }
 
-        percentage=79;
+        percentage=72;
 
-        if (percentage>=60 || percentage<75){
+        if (percentage>=60 && percentage<75){
             System.out.println("student has first division");
         }else {
             System.out.println("student was fail in there class");
@@ -85,21 +86,11 @@ public class TestOne {
 
         percentage=82;
 
-        if (percentage>=83 || percentage<=80){
-            System.out.println("gold madelist is available");
+        if (percentage>=75){
+            System.out.println("Gold madelist ");
         }else {
-            System.out.println("glod madelsit is not available");
+            System.out.println("Not a Glod madelsit ");
         }
-
-        percentage=76;
-
-        if (percentage>=77 || percentage<80){
-            System.out.println("student has first division");
-        }else {
-            System.out.println("student was fail in there class");
-        }
-
-
 
 
         //Write a code to check Age group
@@ -111,36 +102,27 @@ public class TestOne {
 
         if (age>0 && age<18){
 
-            System.out.println("Aman is a child");
+            System.out.println("vishal is a child");
         }else {
-            System.out.println("Aman is not a child");
+            System.out.println("vishal is not a child");
         }
 
         age=42;
 
         if (age>=18 && age<40){
 
-            System.out.println("Aman is a child");
+            System.out.println("visal is a young");
         }else {
-            System.out.println("Aman is a young boy");
+            System.out.println("vishal is not a young boy");
         }
 
         age=72;
 
-        if (age>74 && age<77){
+        if (age>60 ){
 
-            System.out.println("He is not a old person");
-        }else {
             System.out.println("He is a old person");
-        }
-
-        age=34;
-
-        if (age<28 && age>23){
-
-            System.out.println("True");
         }else {
-            System.out.println("False");
+            System.out.println("He is not a old person");
         }
 
 
