@@ -1,4 +1,4 @@
-package conditional_statement;
+package conditional_statement_if_else_nestedif;
 
 public class CenturyEligible {
 

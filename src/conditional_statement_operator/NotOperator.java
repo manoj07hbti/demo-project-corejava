@@ -1,6 +1,4 @@
-package conditional_statement_nestedif_operator;
-
-import conditional_statement.CandidateExamIfAndElse;
+package conditional_statement_operator;
 
 public class NotOperator {
 

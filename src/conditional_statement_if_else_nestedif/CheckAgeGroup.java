@@ -1,4 +1,4 @@
-package conditional_statement_nestedif_operator;
+package conditional_statement_if_else_nestedif;
 
 public class CheckAgeGroup {
 

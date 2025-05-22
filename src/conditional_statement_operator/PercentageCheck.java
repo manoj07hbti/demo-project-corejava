@@ -1,4 +1,4 @@
-package conditional_statement_nestedif_operator;
+package conditional_statement_operator;
 
 public class PercentageCheck {
 
