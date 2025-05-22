@@ -1,4 +1,4 @@
-package loops_;
+package loops_class;
 
 public class For_Loop {
 
