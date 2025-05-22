@@ -104,7 +104,6 @@ public class Test {
             System.out.println("Not divisible by 3: "+number);
         }else{
             System.out.println("Divisible by 3: "+number);
-            //just to add separate commit on git hub
         }
     }
 }
