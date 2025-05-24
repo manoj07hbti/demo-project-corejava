@@ -48,8 +48,9 @@ public class Test18 {
 
         if (nationality=="india") {
             System.out.println("nation is india");
-        if (state=="maharashtra")
-            System.out.println("state is maharastra");
+            if (state == "maharashtra") {
+                System.out.println("state is maharastra");
+            }
         }else {
             System.out.println("nation is not india");
         }
@@ -86,18 +87,21 @@ public class Test18 {
 
         //Write a code to identify  number which is not divisible by 3.
 
-         number =32;
-        if (number%3==1 || number%3==2) {
-            System.out.println("number is not divisible by 3");
+         number =30;
+        if (!(number%3==0)) {
+            System.out.println("number is not divisible by 3:" + number);
         }
-        number=21;
-        if (number%3==1 || number%3==2) {
-            System.out.println("number is not divisible by 3");
+
+        number =13;
+        if (!(number%3==0)) {
+            System.out.println("number is not divisible by 3:" + number);
         }
-        number=12;
-        if (number%3==1 || number%3==2) {
-            System.out.println("number is not divisible by 3");
+
+        number =24;
+        if (!(number%3==0)) {
+            System.out.println("number is not divisible by 3:" + number);
         }
+
 
 
 

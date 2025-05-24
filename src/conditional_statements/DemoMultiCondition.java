@@ -31,12 +31,12 @@ public class DemoMultiCondition {
         int age=32;
         if (age>0 && age<18){
             System.out.println("child");
-        }if (age>=18 && age<=40){
+        }if (age>=18 && age<=40) {
             System.out.println("young");
-            if (age>=60){
+        }if (age>=60){
                 System.out.println("old age");
             }
-        }
+
 
         //Write a code to identify  number which is not divisible by 3.
 
