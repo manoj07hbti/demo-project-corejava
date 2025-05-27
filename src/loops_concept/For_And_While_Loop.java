@@ -8,6 +8,8 @@ public class For_And_While_Loop {
        /* SYNTAX: for (start_condition; conditional_expression; increment){
                 //CODE
             }*/
+
+
         //INCREMENT FOR LOOP
 
         for(int i=1; i<=20; i++){
