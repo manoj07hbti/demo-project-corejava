@@ -36,5 +36,7 @@ public class Print_Star_Number_Pattern {
             }
             System.out.println();
         }
+
+
     }
 }
