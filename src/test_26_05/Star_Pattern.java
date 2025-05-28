@@ -28,6 +28,32 @@ public class Star_Pattern {
             System.out.println();
         }
 
+        // TODO Using while Loop for Pattern
+        //Uuper Star
+        int k=1;
+        while(k<=5){
+            int l=1;
+            while(l<=k){
+                System.out.print(" *");
+                l++;
+            }
+            System.out.println();
+            k++;
+        }
+
+        //
+        int a=1;
+        while(a<=5){
+            int b=4;
+            while(b>=a){
+                System.out.print(" *");
+                b--;
+            }
+            System.out.println();
+            a++;
+        }
+
+
 
     }
 
