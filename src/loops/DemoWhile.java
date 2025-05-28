@@ -17,5 +17,15 @@ public class DemoWhile {
             v--;
         }
 
+        int k=1;
+        int ten=10;
+        while (k<=10){
+
+            System.out.println("printing table of ten..."+ ten*k);
+            k++;
+        }
+
+
+
     }
 }

@@ -24,6 +24,13 @@ public class DemoFor {
         }
 
 
+        for (int k=1; k<=10; ){
+
+            int t=5;
+            System.out.println("printing table of 2 : "+ t*k);
+            k++;
+        }
+
 
     }
 
