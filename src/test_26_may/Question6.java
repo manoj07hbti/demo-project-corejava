@@ -1,4 +1,4 @@
-package loops_working;
+package test_26_may;
 
 public class Question6 {
     public static void main(String[] args) {
