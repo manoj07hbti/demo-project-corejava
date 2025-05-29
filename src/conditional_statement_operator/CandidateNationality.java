@@ -1,4 +1,4 @@
-package conditional_statement_if_else_nestedif;
+package conditional_statement_operator;
 
 public class CandidateNationality {
 
