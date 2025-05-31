@@ -1,8 +1,6 @@
 package array_practice;
 
-import javax.sound.midi.Soundbank;
-
-public class Array_Break_Comnd {
+public class Array_Height {
 
     public static void main(String[] args) {
 
