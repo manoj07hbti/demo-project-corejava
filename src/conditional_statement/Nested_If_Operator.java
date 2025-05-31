@@ -1,6 +1,6 @@
 package conditional_statement;
 
-public class Nested_If_Operator {
+public class    Nested_If_Operator {
     public static void main(String[] args) {
 
         //Checking first division
