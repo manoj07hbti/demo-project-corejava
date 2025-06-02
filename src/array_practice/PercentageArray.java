@@ -1,6 +1,6 @@
 package array_practice;
 
-public class EvenNumbers {
+public class PercentageArray {
     public static void main(String[] args) {
 
         double percentage[] = {55.8, 87.9, 90.1, 78.3};
