@@ -14,5 +14,16 @@ public class Int_Array_City_Distance {
 
         }
 
+
+        // Using while
+        int j=0;
+
+        System.out.println("============================================");
+        System.out.println("===========Using While Loop=============");
+        while(j<6){
+            System.out.println("Using While Loop Printing City along with the Distance :" + j + " City- " + cityName[j] + " :" + distance[j]);
+            j++;
+        }
+
     }
 }
