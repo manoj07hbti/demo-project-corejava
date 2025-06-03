@@ -36,17 +36,18 @@ public class PrintingLoop {
 
 
 
-        for (int i=1; i<=3; i++){
+        for (int i=1; i<=3; i++) {
 
-            for (int n=1; n<=i; n++){
+            for (int n = 1; n <= i; n++) {
                 System.out.print("*");
 
             }
             System.out.println("");
+        }
 
-            for (int k=3; k>=1; k--){
+            for (int k = 2; k >= 1; k--) {
 
-                for (int v=3; v>=k; v--){
+                for (int v = 1; v <= k; v++) {
 
                     System.out.print("*");
                 }
@@ -54,11 +55,7 @@ public class PrintingLoop {
 
 
             }
-
-
-
-
         }
 
     }
-}
+
