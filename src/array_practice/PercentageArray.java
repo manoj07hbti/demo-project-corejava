@@ -34,10 +34,8 @@ public class PercentageArray {
 
 // print percentage using advanced loop
 
-        for (double num : percentage) {
-            for (String nam : name) {
-                System.out.println(nam + num);
-            }
-        }
+       for (int k=0; k< name.length; k++){
+           System.out.println(name[k]+" percentage= "+percentage[k]);
+       }
     }
 }

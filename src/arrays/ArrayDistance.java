@@ -5,12 +5,12 @@ public class ArrayDistance {
 // print arrayDistance using for loop
 
         int distance[] = {300, 450, 700, 90, 500};
-        String state[] = {"delhi"};
         String states[] = {"mathura", "punjab", "kolkata", "haryana", "mumbai"};
+        String state ="delhi";
         // System.out.println(distance[3]);
 
        for (int i = 0; i <= 4; i++) {
-            System.out.println(state[0] + " to " + states[i] + "=" + distance[i] + "km");
+            System.out.println(state + " to " +states[i] + "= " + distance[i] + "km");
 
         }
         System.out.println();
@@ -19,7 +19,7 @@ public class ArrayDistance {
 
         int j = 0;
         while (j<=4){
-            System.out.println(state[0] +" to "+ states[j] +"="+ distance[j]+"km");
+            System.out.println(state +" to "+ states[j] +"= "+ distance[j]+"km");
             j++;
         }
         System.out.println();
@@ -28,26 +28,30 @@ public class ArrayDistance {
 
         int k=0;
         do {
-            System.out.println(state[0] +" to "+ states[k] +"="+ distance[k]+"km");
+            System.out.println(state +" to "+ states[k] +"= "+ distance[k]+"km");
             k++;
         }while (k<=4);
         System.out.println();
         // print arrayDistance using advance loop
 
 
-        for (String name : state) {
-                for (String names : states) {
-                    for (int dis: distance){
-                        System.out.println( name+" to "+ names+"=" +dis);
-                    }
-
-                }
-
-            }
+        for (int i = 0; i < 5; i++) {
+            System.out.println( state+" to "+ states[i] + "= " + distance[i] + " km");
         }
+        System.out.println();
 
 
+        int m=0;
+        for (String city: states){
+                System.out.println(state+ " to "+ city+ "= "+distance[m]);
+                m++;
+            }
+
+        }
     }
+
+
+
 
 
 

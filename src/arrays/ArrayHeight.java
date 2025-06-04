@@ -32,13 +32,10 @@ public class ArrayHeight {
         System.out.println();
 
 // print arrayHeight using advanced loop
-
-        for (String name : names) {
-            for (double heigh: height) {
-
-                System.out.println(name + " height= " + heigh);
-            }
+        for (int k=0; k< names.length; k++){
+            System.out.println(names[k]+" height= "+height[k]);
         }
+
     }
 }
 
