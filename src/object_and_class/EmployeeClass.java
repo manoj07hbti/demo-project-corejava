@@ -8,6 +8,7 @@ public class EmployeeClass {
     String address= "noida sector 16";
     double timing= 10;
 
+
     public static void main(String[] args) {
 
         EmployeeClass objt1= new EmployeeClass();
