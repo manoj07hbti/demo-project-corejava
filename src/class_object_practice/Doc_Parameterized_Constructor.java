@@ -1,6 +1,6 @@
-package class_object_working;
+package class_object_practice;
 
-public class Parameterized_Constructor {
+public class Doc_Parameterized_Constructor {
 
     String name;
     String specialization;
@@ -10,7 +10,7 @@ public class Parameterized_Constructor {
     // Generate parameter Constructor
 
 
-    public Parameterized_Constructor(String name, String specialization, int yearOfExperience, String hospital) {
+    public Doc_Parameterized_Constructor(String name, String specialization, int yearOfExperience, String hospital) {
         this.name = name;
         this.specialization = specialization;
         this.yearOfExperience = yearOfExperience;
@@ -19,9 +19,9 @@ public class Parameterized_Constructor {
 
     public static void main(String[] args) {
 
-        Parameterized_Constructor doctor1= new Parameterized_Constructor("Rahul Tripathi","Ortho",10,"AIIMS");
-        Parameterized_Constructor doctor2= new Parameterized_Constructor("Abhishek Bhatia","Neurology",8,"MAX Hospital");
-        Parameterized_Constructor doctor3= new Parameterized_Constructor("Kunal Sagar","Dermatologists",18,"Pushpanjali");
+        Doc_Parameterized_Constructor doctor1= new Doc_Parameterized_Constructor("Rahul Tripathi","Ortho",10,"AIIMS");
+        Doc_Parameterized_Constructor doctor2= new Doc_Parameterized_Constructor("Abhishek Bhatia","Neurology",8,"MAX Hospital");
+        Doc_Parameterized_Constructor doctor3= new Doc_Parameterized_Constructor("Kunal Sagar","Dermatologists",18,"Pushpanjali");
 
 
         System.out.println("Name : "+doctor1.name+" ; Specialization : "+doctor1.specialization+" ; Experience : "+doctor1.specialization+" ; Hospital : "+doctor1.hospital);

@@ -1,4 +1,4 @@
-package class_object_practice;
+package class_object_working;
 
 public class Doctor_Class {
 
