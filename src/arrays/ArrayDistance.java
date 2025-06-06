@@ -34,13 +34,6 @@ public class ArrayDistance {
         System.out.println();
         // print arrayDistance using advance loop
 
-
-        for (int i = 0; i < 5; i++) {
-            System.out.println( state+" to "+ states[i] + "= " + distance[i] + " km");
-        }
-        System.out.println();
-
-
         int m=0;
         for (String city: states){
                 System.out.println(state+ " to "+ city+ "= "+distance[m]);
