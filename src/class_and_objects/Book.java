@@ -3,9 +3,24 @@ package class_and_objects;
 public class Book {
 
     //properties or data member
-    String name = "Java";
-    int pages = 457;
-    String writerName = "Games Gosling";
+    String name ;
+    int pages ;
+    String writerName ;
+
+    // behaviour or functionalities
+    //Syntax : access_specifier return_type  method_name (parameter) {CODE..}
+
+    //read
+    public void readMethod(){
+
+        System.out.println("This is my read method...");
+    }
+
+    //buy
+    //sale
+
+
+
 
     public static void main(String[] args) {
 

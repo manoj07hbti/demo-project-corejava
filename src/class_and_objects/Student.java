@@ -2,9 +2,20 @@ package class_and_objects;
 
 public class Student {
 
-    String name="Rahul";
-    int age=23;
-    String section="Science";
+    String name;
+    int age;
+    String section;
+
+  //functionalities
+  //study
+
+    public void studyMethod(){
+
+        System.out.println("Printing study method");
+    }
+  //run
+  //eat
+
 
 
     public static void main(String[] args) {
