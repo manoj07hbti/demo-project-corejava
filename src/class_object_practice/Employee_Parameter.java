@@ -1,6 +1,4 @@
-package class_object_working.class_object_practice;
-
-import javax.sound.midi.Soundbank;
+package class_object_practice;
 
 public class Employee_Parameter {
 
