@@ -3,7 +3,7 @@ package conditional_statement_if_else_nestedif;
 public class NestedIf2 {
     public static void main(String[] args) {
         //Find the tallest student among 2 students
-        int n1 = 130, n2 = 150, n3 = 180;
+        int n1 = 180, n2 = 150, n3 = 180;
 
 
         if (n1 >= n2) {

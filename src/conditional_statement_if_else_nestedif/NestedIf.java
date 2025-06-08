@@ -4,7 +4,7 @@ public class NestedIf {
 
     public static void main(String[] args) {
 
-   //write a code which can find even and odd numbers which is greater than 0.
+       //write a code which can find even and odd numbers which is greater than 0.
         int number=14;
 
         if (number>0) {
