@@ -1,11 +1,27 @@
 package class_and_object;
 
+import java.security.PublicKey;
+
 public class Employee {
 
         String name="Neeraj";
         String company="cognizant";
         String work="Web Developer";
         int salary=45000;
+
+        public void workmethod(){
+
+            System.out.println("this is work method...");
+        }
+
+        public void eatmethod(){
+            System.out.println("this is eat method...");
+        }
+
+        public void sleepmethod(){
+
+            System.out.println("this i sleepmethod...");
+        }
 
     public static void main(String[] args) {
 
