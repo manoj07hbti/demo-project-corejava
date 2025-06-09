@@ -1,4 +1,4 @@
-package test_8_june;
+package test_8_june_commit;
 
 public class Max_Element {
 
@@ -6,7 +6,7 @@ public class Max_Element {
 
     public static void main(String[] args) {
 
-        int element [] ={1,3,5,2,4};
+        int element [] ={1,3,5,2,4,7};
         int max= element[0];
 
         for (int i=1;i<element.length;i++){

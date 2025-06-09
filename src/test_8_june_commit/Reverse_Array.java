@@ -1,4 +1,4 @@
-package test_8_june;
+package test_8_june_commit;
 
 public class Reverse_Array {
 
