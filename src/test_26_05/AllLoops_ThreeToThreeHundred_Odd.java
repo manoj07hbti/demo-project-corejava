@@ -1,7 +1,5 @@
 package test_26_05;
 
-import conditional_statement_if_else_nestedif.IfAndElse;
-
 public class AllLoops_ThreeToThreeHundred_Odd {
 
     public static void main(String[] args) {
