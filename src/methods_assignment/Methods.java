@@ -4,7 +4,7 @@ package methods_assignment;
 
 public class Methods {
 
-public void cube(){
+public void square(){
     int number= 5;
     System.out.println("the square of given number is= "+number*number);
 }
@@ -36,7 +36,7 @@ public void even_And_Odd(){
     public static void main(String[] args) {
 
     Methods obj =new Methods();
-    obj.cube();
+    obj.square();
     obj.eligible_for_voting_or_not();
     obj.even_And_Odd();
     }
