@@ -1,4 +1,4 @@
-package class_object_method;
+package class_object_method.object_method;
 
 public class Odd_Even_OneToHundred_Method {
 

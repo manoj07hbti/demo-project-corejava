@@ -1,4 +1,4 @@
-package class_object_method;
+package class_object_method.object_method;
 
 public class Method_Employee {
     // Write a program to create Method and Print
