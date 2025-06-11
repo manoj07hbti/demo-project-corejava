@@ -1,6 +1,6 @@
 package loops_working;
 
-public class Assignment {
+public class AssignmentLoops {
     public static void main(String[] args) {
 
         // FOR LOOP
@@ -51,16 +51,23 @@ public class Assignment {
 //            }
 
             // DO WHILE LOOP
+//
+//        int k=1;
+//        do{
+//            if (k%2!=0){
+//                System.out.println(k);
+//
+//            }
+//            k++;
+//        }while(k<=100);
 
-        int k=1;
-        do{
-            if (k%2!=0){
-                System.out.println(k);
 
-            }
-            k++;
-        }while(k<=100);
+        //Reverse of given number using loop
 
+        //While loop
+        int num=12345;
+
+//
 
 
         }
