@@ -12,6 +12,10 @@ public class Cube_Method_Parameter {
 
     }
 
+    //2- write a method to check if given Prime number is prime or not
+
+
+
     public static void main(String[] args) {
 
         Cube_Method_Parameter obj = new Cube_Method_Parameter();
@@ -19,5 +23,7 @@ public class Cube_Method_Parameter {
         obj.cube(87);
         obj.cube(54);
         obj.cube(2);
+
+
     }
 }
