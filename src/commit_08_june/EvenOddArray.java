@@ -12,8 +12,8 @@ public class EvenOddArray {
         System.out.println(evenAndOdd[i]+ " is an even number");
     }else{
         System.out.println(evenAndOdd[i]+ " is an odd number");
+            }
+        }
     }
 }
 
-    }
-}
