@@ -10,7 +10,7 @@ public class Reverse_Array {
 
         // Using for Loop with Decresing operator to print reverse
         for (int i= seq.length-1;i>=0;i--){
-            System.out.print(seq[i]);
+            System.out.print(seq[i]+", ");
         }
     }
 
