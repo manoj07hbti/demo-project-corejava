@@ -1,8 +1,6 @@
 package Methods.ReturnType;
 
-import sun.nio.ch.SelectorImpl;
-
-public class First {
+public class ReturnType {
 
     //To Check Even Odd
 
@@ -93,7 +91,7 @@ public class First {
 
 
     public static void main(String[] args) {
-        First obj = new First();
+        ReturnType obj = new ReturnType();
 
         String output = obj.even_odd(12);
         System.out.println(output);
