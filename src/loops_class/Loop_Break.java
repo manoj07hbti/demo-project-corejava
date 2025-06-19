@@ -1,7 +1,5 @@
 package loops_class;
 
-import test_18_may.CheckVoterEligibility;
-
 public class Loop_Break {
 
     public static void main(String[] args) {
