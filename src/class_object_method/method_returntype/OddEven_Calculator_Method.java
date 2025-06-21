@@ -1,7 +1,7 @@
 package class_object_method.method_returntype;
 
 
-public class OddEven_Method {
+public class OddEven_Calculator_Method {
 
     public String odd(int num){
             if (num%2 !=0){
@@ -39,13 +39,13 @@ public class OddEven_Method {
     public static void main(String[] args) {
 
         // object for OddEven
-        OddEven_Method checker= new  OddEven_Method();
+        OddEven_Calculator_Method checker= new OddEven_Calculator_Method();
 
         String result= checker.odd(36);
         System.out.println("Given Number is..."+result);
 
         // object for Calculator
-        OddEven_Method calculator = new OddEven_Method();
+        OddEven_Calculator_Method calculator = new OddEven_Calculator_Method();
 
         int output= calculator.addition(31,43);
         System.out.println("Addtion of two number..."+output);
