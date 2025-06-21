@@ -11,8 +11,6 @@ public class Prime_Number {
 
                 if (num % i == 0) {
                     primeNumber = false;
-                } else {
-
                 }
             }
 

@@ -8,6 +8,6 @@ public class Factorial_Of_Nine {
         for (int i=num;i>0;i--){
             factorial=factorial*i;
         }
-        System.out.println("Factorial of "+ num+ " is "+factorial);
+        System.out.println("Factorial of "+ num + " is "+factorial);
     }
 }
