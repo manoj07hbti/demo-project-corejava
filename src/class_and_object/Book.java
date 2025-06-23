@@ -11,7 +11,7 @@ public class Book {
 
         //ClassName objName= new ClassName();
 
-        Book obj1= new Book();// we have created obj1 as object of Book
+        Book obj1= new Book();// we have created obj1 as an object of Book
         Book obj2= new Book();
 
         //object.propertyName;

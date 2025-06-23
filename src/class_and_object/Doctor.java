@@ -7,19 +7,8 @@ public class Doctor {
     String specialist="Orthopaedic";
     int salary =250000;
 
-    public void surgerymethod(){
 
-        System.out.println("this is surgery method...");
-    }
 
-    public void eatmethod(){
-        System.out.println("this is eat method...");
-    }
-
-    public void sleepmethod(){
-
-        System.out.println("this is sleep method....");
-    }
 
     public static void main(String[] args) {
 

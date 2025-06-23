@@ -9,19 +9,8 @@ public class Employee {
         String work="Web Developer";
         int salary=45000;
 
-        public void workmethod(){
 
-            System.out.println("this is work method...");
-        }
 
-        public void eatmethod(){
-            System.out.println("this is eat method...");
-        }
-
-        public void sleepmethod(){
-
-            System.out.println("this i sleepmethod...");
-        }
 
     public static void main(String[] args) {
 

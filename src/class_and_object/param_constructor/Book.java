@@ -7,7 +7,7 @@ public class Book {
     String writerName;
 
     //parameterized constructor
-    //this points to current object
+    //this points to the current object
     public Book(String name, int pages, String writerName) {
         this.name = name;
         this.pages = pages;
