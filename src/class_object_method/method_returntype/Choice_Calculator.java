@@ -27,19 +27,35 @@ public class Choice_Calculator {
 
     public static void main(String[] args) {
 
+
+
         Choice_Calculator obj = new Choice_Calculator();
-        int operationChoice= 3;
+        int operationChoice= 1;
 
         int result;
 
-        switch (operationChoice){
+        if (operationChoice ==1){
+            result=obj.add(23,45);
+            System.out.println("Addition:"+result);
+        } else if (operationChoice==2) {
+            result=obj.sub(23,45);
+            System.out.println("Subtract:"+result);
+        } else if (operationChoice==3) {
+            result=obj.multiply(23,45);
+            System.out.println("Multiply:"+result);
+        } else {
+            result=obj.divide(23,45);
+            System.out.println("divide:"+result);
+        }
+
+  /*      switch (operationChoice){
             case 1:
                 result=obj.add(23,45);
                 System.out.println("Result of Addtion.."+result);
                 break;
 
             case 2:
-                result =obj.sub(43,35);
+                result =obj.sub(43,35); 
                 System.out.println("Result of Subtraction.."+result);
                 break;
 
@@ -57,7 +73,7 @@ public class Choice_Calculator {
             default:
                 System.out.println("Invalid operation Choice...");
 
-        }
+        }*/
 
 
     }

@@ -29,6 +29,8 @@ public class Check_Division {
     }
 
     public static void main(String[] args) {
+
+
         Check_Division check = new Check_Division();
 
         String percentage = check.checkDivision(32);
