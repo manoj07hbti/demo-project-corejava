@@ -20,6 +20,10 @@ public class CalculatorApp {
         return a/b;
     }
 
+    public int per(int a, int b){
+        return a%b;
+    }
+
     public static void main(String[] args) {
 
         Scanner obj =new Scanner(System.in);
@@ -48,6 +52,10 @@ public class CalculatorApp {
 
         if (choice==4){
             System.out.println("division of given number"+cal.div(a,b));
+        }
+
+        if (choice==5){
+            System.out.println("percentage of given number : "+cal.per(a,b));
         }
 
 
