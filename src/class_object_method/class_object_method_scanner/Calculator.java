@@ -30,32 +30,49 @@ public class Calculator {
 
         public static void main(String[] args) {
 
-            Scanner obj = new Scanner(System.in);
-
-            //call scanner object
-            System.out.println("Please enter value of num1: ");
-            int a = obj.nextInt();
-
-            System.out.println("Please enter value of num2: ");
-            int b = obj.nextInt();
-
-            System.out.println("Please Enter Choice: 1-Add, 2-Sub,3-Multiply, 4-Divide");
-            int operationChoice = obj.nextInt();
-
+            String flag ="Y";
             //Object for Method
             class_object_method.method_returntype.Choice_Calculator calculator = new class_object_method.method_returntype.Choice_Calculator();
 
+            Scanner obj = new Scanner(System.in);
 
-            if (operationChoice == 1) {
-                System.out.println("Addition of Given Number : "+calculator.add(a, b));
+            //Infinite Loop
+            while (flag.equals("Y")){
 
-            } else if (operationChoice == 2) {
-                System.out.println("Subtraction of Given Number : "+calculator.sub(a, b));
-            } else if (operationChoice == 3) {
-                System.out.println("Multiplication of Given Number : "+calculator.multiply(a, b));
-            } else {
-                System.out.println("Division of Given Number : "+calculator.divide(a, b));
+                //call scanner object
+                System.out.println("Please enter value of num1: ");
+                int a = obj.nextInt();
+
+                System.out.println("Please enter value of num2: ");
+                int b = obj.nextInt();
+
+                System.out.println("Please Enter Choice: 1-Add, 2-Sub,3-Multiply, 4-Divide");
+                int operationChoice = obj.nextInt();
+
+                if (operationChoice == 1) {
+                    System.out.println("Addition of Given Number : "+calculator.add(a, b));
+
+                } else if (operationChoice == 2) {
+                    System.out.println("Subtraction of Given Number : "+calculator.sub(a, b));
+                } else if (operationChoice == 3) {
+                    System.out.println("Multiplication of Given Number : "+calculator.multiply(a, b));
+                } else {
+                    System.out.println("Division of Given Number : "+calculator.divide(a, b));
+                }
+
+                // create one more Scanner obj
+                Scanner obj2= new Scanner(System.in);
+
+                System.out.println("Press Y to continue or any other key to exit");
+            flag= obj2.nextLine();
+            if (!flag.equals("Y")){
+                break;
             }
+
+            }
+
+
+
 
 
         }
