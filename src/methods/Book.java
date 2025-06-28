@@ -7,7 +7,7 @@ public class Book {
     int pages ;
     String writerName ;
 
-    // behaviour or functionalities
+    // behavior or functionalities
     //Syntax : access_specifier return_type  method_name (parameter) {CODE..}
 
     //read

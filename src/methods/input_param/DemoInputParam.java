@@ -8,7 +8,7 @@ public class DemoInputParam {
         System.out.println("Welcome to java Programming..."+name);
     }
 
-    //Syntax : access_specifier return_type  method_name (parameter) {CODE..}
+    //Syntax: access_specifier return_type method_name (parameter) {CODE..}
 
     public void add(int a, int b ){
 

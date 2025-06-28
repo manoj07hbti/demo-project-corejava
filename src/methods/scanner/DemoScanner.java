@@ -11,11 +11,11 @@ public class DemoScanner {
         System.out.println("Please enter you name:");
         //ClassName objName = new ClassName();
         Scanner obj=new Scanner(System.in);
-        String name= obj.nextLine(); // it reads String input and return back value
+        String name= obj.nextLine(); // it reads String input and returns back value
         System.out.println("You hav entered name as : "+name);
 
         System.out.println("Please enter you age: ");
-        int age= obj.nextInt(); // it reads int input from keyboard and return back entered value to the program
+        int age= obj.nextInt(); // it reads int input from the keyboard and returns entered value to the program
         System.out.println("You have entered age as : "+age);
 
         System.out.println("Please enter your height");
