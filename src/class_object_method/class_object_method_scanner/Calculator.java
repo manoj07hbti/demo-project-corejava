@@ -66,6 +66,7 @@ public class Calculator {
                 System.out.println("Press Y to continue or any other key to exit");
             flag= obj2.nextLine();
             if (!flag.equals("Y")){
+                System.out.println("Thanks for Using Calculator App.....");
                 break;
             }
 
