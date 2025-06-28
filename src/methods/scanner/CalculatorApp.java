@@ -10,20 +10,17 @@ public class CalculatorApp {
 
     public static void main(String[] args) {
 
-        Scanner obj = new Scanner(System.in);
-
+        Scanner obj =new Scanner(System.in);
         System.out.println("Please enter value of a: ");
-        int a = obj.nextInt();
-
-        System.out.println("Please enter value of b: ");
-        int b = obj.nextInt();
-
+        int a=obj.nextInt();
+        System.out.println("Please enter value of a: ");
+        int b=obj.nextInt();
         System.out.println("Please enter choice , 1-Add, 2- Sub , 3- Multi, 4 divide ");
-        int choice = obj.nextInt();
+        int choice=obj.nextInt();
 
-        CalculatorApp cal = new CalculatorApp();
-        if (choice == 1) {
-            System.out.println("Addition of given number is : " + cal.add(a, b));
+        CalculatorApp cal=new CalculatorApp();
+        if(choice==1){
+            System.out.println("Addition of given number is : "+cal.add(a,b));
         }
 
 
