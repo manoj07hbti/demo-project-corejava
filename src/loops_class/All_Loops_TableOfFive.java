@@ -8,6 +8,7 @@ public class All_Loops_TableOfFive {
         for(int i=1;i<=10;i++){
             System.out.println(num+"*"+i+" = "+num*i);
         }
+        System.out.println("*****************");
 
         // While Loop
         int j=1;
