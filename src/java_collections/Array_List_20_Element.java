@@ -52,7 +52,7 @@ public class Array_List_20_Element {
             System.out.println("Using for Loop Print element #: "+i +" "+list.get(i));
         }
 
-        // While Loop
+        // While Loop}
         int k=0;
         while (k< list.size()){
             System.out.println("Using for While Loop Print element #: "+k +" "+list.get(k));

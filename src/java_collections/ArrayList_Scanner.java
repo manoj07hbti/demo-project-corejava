@@ -13,7 +13,7 @@ public class ArrayList_Scanner {
 
         System.out.println("Please enter 20 elements to add to the ArrayList:");
 
-        // Add 20 elements using Scanner
+        // Add 20 elements using Scanner)
         for (int i = 0; i<10; i++) {
             System.out.print("Enter element #" + (i+1 ) + ": ");
             String element = scanner.nextLine();
