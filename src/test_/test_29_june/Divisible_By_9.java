@@ -3,7 +3,7 @@ package test_.test_29_june;
 public class Divisible_By_9 {
 
     //write a code to check any number between 3 to 160 is divisible by 9, and it should not be odd number
-    public String printDivisibleBy9AndEven() {
+    public String printDivisibleBy9() {
         System.out.println("***************** Numbers between 3 to 160 divisible by 9 and not odd **************");
 
         for (int i = 3; i <= 160; i++) {
@@ -21,7 +21,7 @@ public class Divisible_By_9 {
     public static void main(String[] args) {
 
         Divisible_By_9 object = new Divisible_By_9();
-        object.printDivisibleBy9AndEven();
+        object.printDivisibleBy9();
 
 
 

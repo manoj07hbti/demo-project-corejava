@@ -24,6 +24,8 @@ public class ATM_Choice {
             System.out.println("Incorrect PIN. Try again.");
 
         }
+
+
     }
     // Method to cash Withdrawal
     public int withdrawCash(int amount){
@@ -63,6 +65,7 @@ public class ATM_Choice {
             System.out.print("Enter your choice: ");
         } else {
             System.out.println("Incorrect PIN. Exiting...");
+
         }
 
 //===========================================================================================
