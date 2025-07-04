@@ -29,7 +29,8 @@ public class ListNams10 {
 
             ListNams10 obj =new ListNams10();
             ArrayList list =obj.nameElement();
-
+            System.out.println("\n");
+            System.out.println("***************************** For Loop *****************************");
             //Using For Loop
             for (int i=0; i<10;i++){
                 System.out.println("Using For loop Print element # :"+list.get(i));
