@@ -1,9 +1,6 @@
-package java_collections;
-
-import git.Demo;
+package java_collections.list;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class DemoList {
 
