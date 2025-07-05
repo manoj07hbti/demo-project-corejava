@@ -47,18 +47,26 @@ public class Array_List_20_Element {
         ArrayList list = obj.storeName();
         System.out.println("Printing Elements :"+list);
 
+        System.out.println("\n");
         // USing Loop
         for (int i=0;i< list.size();i++){
             System.out.println("Using for Loop Print element #: "+i +" "+list.get(i));
         }
 
+        System.out.println("\n");
         // While Loop}
         int k=0;
         while (k< list.size()){
             System.out.println("Using for While Loop Print element #: "+k +" "+list.get(k));
             k++;
         }
+        System.out.println("\n");
+        list.remove(5);
+        list.remove(10);
+        list.remove(15);
+        list.remove(7);
 
+        System.out.println("\n");
         // Using Do while
         int a=0;
         do {
@@ -66,6 +74,7 @@ public class Array_List_20_Element {
             a++;
         }while (a<list.size());
 
+        System.out.println("\n");
         // Using advance for Loop
 
         // for (DataType var :collection/Array
