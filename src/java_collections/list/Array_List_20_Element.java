@@ -1,7 +1,6 @@
-package java_collections;
+package java_collections.list;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Array_List_20_Element {
 
