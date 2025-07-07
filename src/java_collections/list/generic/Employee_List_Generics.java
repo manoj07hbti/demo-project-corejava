@@ -1,12 +1,9 @@
 package java_collections.list.generic;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Student_List_Generic {
-
-    //
+public class Employee_List_Generics {
 
     public ArrayList<String> addName(){
         boolean flag=true;
@@ -14,79 +11,79 @@ public class Student_List_Generic {
         Scanner scanner = new Scanner(System.in);
 
         // Syntax arraylist generic: CollectionName <DataType> objName =new CollectionName<>();
-        ArrayList<String> studentNames = new ArrayList<>();
+        ArrayList<String> employeesName = new ArrayList<>();
 
         while (flag){
-            System.out.println("Please Enter Student Name :");
+            System.out.println("Please Enter Employee Name :");
             String name = scanner.nextLine();
-            studentNames.add(name);
-            System.out.println("Do you enter more Student Name, Press Y to continue or any key to exit");
+            employeesName.add(name);
+            System.out.println("Do you enter more Employee Name, Press Y to continue or any key to exit");
             String choice = scanner.nextLine();
             if (!choice.equals("Y")==true){
                 flag =false;
             }
         }
-        return studentNames;
+        return employeesName;
     }
 
-    public ArrayList<Integer> addAge(){
+    public ArrayList<Integer> addEmpID(){
         boolean flag=true;
 
         Scanner scanner = new Scanner(System.in);
 
         // Syntax arraylist generic: CollectionName <DataType> objName =new CollectionName<>();
-        ArrayList<Integer> studentAges = new ArrayList<>();
+        ArrayList<Integer> employeesID = new ArrayList<>();
 
         while (flag){
-            System.out.println("Please Enter Student Age :");
-            Integer age = scanner.nextInt();
-            studentAges.add(age);
+            System.out.println("Please Enter Employee ID :");
+            Integer empID = scanner.nextInt();
+            employeesID.add(empID);
             Scanner scanner1 = new Scanner(System.in);
-            System.out.println("Do you enter more Student Ages, Press Y to continue or any key to exit");
+            System.out.println("Do you enter more Employee ID's, Press Y to continue or any key to exit");
 
             String choice = scanner1.nextLine();
             if (!choice.equals("Y")==true){
                 flag =false;
             }
         }
-        return studentAges;
+        return employeesID;
     }
 
-    public ArrayList<Double> addPercentage(){
+    public ArrayList<Double> addSalary(){
         boolean flag=true;
 
         Scanner scanner = new Scanner(System.in);
 
         // Syntax arraylist generic: CollectionName <DataType> objName =new CollectionName<>();
-        ArrayList<Double> studentPercentages = new ArrayList<>();
+        ArrayList<Double> employeesSalary = new ArrayList<>();
 
         while (flag){
-            System.out.println("Please Enter Student Percentages :");
-            Double percentage = scanner.nextDouble();
-            studentPercentages.add(percentage);
+            System.out.println("Please Enter Employee's Salary :");
+            Double empSalary = scanner.nextDouble();
+            employeesSalary.add(empSalary);
             Scanner scanner1 = new Scanner(System.in);
-            System.out.println("Do you enter more Percentage, Press Y to continue or any key to exit");
+            System.out.println("Do you enter more Employee's Salary, Press Y to continue or any key to exit");
 
             String choice = scanner1.nextLine();
             if (!choice.equals("Y")==true){
                 flag =false;
             }
         }
-        return studentPercentages;
+        return employeesSalary;
     }
 
 
     public static void main(String[] args) {
 
-        Student_List_Generic obj = new Student_List_Generic();
+        Employee_List_Generics obj = new Employee_List_Generics();
         // Call student name Method
         ArrayList<String> output =obj.addName();
-        System.out.println("You have entered Student Name as : "+output);
+        System.out.println("You have entered Employee's Name as : "+output);
         // Call student AGE Method
 
-        System.out.println("You have entered Student Age as : "+obj.addAge());
+        System.out.println("You have entered Employee's ID as : "+obj.addEmpID());
 
-        System.out.println("You have entered Student Percentages as :"+obj.addPercentage()+"%");
+        System.out.println("You have entered Employee's Salary as :"+obj.addSalary());
 
     }
 }
