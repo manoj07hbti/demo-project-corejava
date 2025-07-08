@@ -31,13 +31,13 @@ public class DemoList {
             System.out.println("Printing list using for loop at : "+ i +" Value: "+list.get(i));
         }
 
-        int n=1;
+        int n=0;
         while (n<list.size()){
             System.out.println("Printing list using for while loop at : "+n+" value : "+list.get(n));
             n++;
         }
 
-        int k=1;
+        int k=0;
         do {
             System.out.println("Printing list using for Do loop at : "+k+" value :"+list.get(k));
             k++;
