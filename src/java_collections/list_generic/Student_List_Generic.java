@@ -1,6 +1,5 @@
-package java_collections.list.generic;
+package java_collections.list_generic;
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package java_collections.list.generic;
+package java_collections.list_generic;
 
 import java.util.ArrayList;
 import java.util.Scanner;
