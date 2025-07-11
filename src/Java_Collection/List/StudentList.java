@@ -1,6 +1,5 @@
-package Java_Collection;
+package Java_Collection.List;
 
-import ClassAndObject.Param.Employee;
 import model.Student;
 
 import java.util.ArrayList;
