@@ -50,9 +50,10 @@ public class String_Hashset {
 
     // Using advance for Loop
 
-    for (String var: obj.storeStudent()){
+        for (String var: obj.storeStudent()){
         System.out.println("Using Advance Loop  Print Unique name :"+var);
-    }
+         }
+
         for (String var: obj.storeUniqueStudent()){
             System.out.println("Using Advance Loop Print Unique name  with insertion:"+var);
         }
