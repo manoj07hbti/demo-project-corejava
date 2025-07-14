@@ -1,4 +1,4 @@
-package java_collections;
+package java_collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class ArrayList_Scanner {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter 20 elements to add to the ArrayList:");
+        System.out.println("Please enter 20 elements to add to the java_collections.ArrayList:");
 
         // Add 20 elements using Scanner)
         for (int i = 0; i<10; i++) {
