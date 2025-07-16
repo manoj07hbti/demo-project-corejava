@@ -3,12 +3,13 @@ package java_collections.hashset;
 import model.Student;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class DemoStudentSet {
 
     public void createStudentData(){
 
-        HashSet<Student>  studentHashSet= new HashSet<>();
+        LinkedHashSet<Student> studentHashSet= new LinkedHashSet<>();
 
         // now we need to create data for Student
 
@@ -20,7 +21,7 @@ public class DemoStudentSet {
         System.out.println( " Hashcode of S3 is "+s3.hashCode());
         Student s4= new Student("Rohit",22,"IT");
         System.out.println( " Hashcode of S4 is "+s4.hashCode());
-        Student s5= new Student("Mohi",23,"CS");
+        Student s5= new Student("Mohit",23,"CS");
         System.out.println( " Hashcode of S5 is "+s5.hashCode());
 
         studentHashSet.add(s1);
