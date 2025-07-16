@@ -3,6 +3,7 @@ package method.scanner;
 import java.util.Scanner;
 
 public class AtmApp {
+
     public boolean checkLogin(String userName, String password) {
 
         if (userName.equals("harishaxis") && password.equals("456789")) {
@@ -37,64 +38,59 @@ public class AtmApp {
     public String errorScreen() {
         return "User Name or password is Incorrect, please try again...";
     }
-
     public static void main(String[] args) {
-        String flag ="y";
-        Scanner sc = new Scanner (System. in);
+        String flag = "y";
+        Scanner username = new Scanner(System.in);
+        Scanner password = new Scanner(System.in);
+        Scanner userchoice = new Scanner(System.in);
+
         AtmApp obj = new AtmApp();
 
-        while(flag.equals("y")){
+        while (flag.equals("y")) {
 
             System.out.println("Enter user name");
-            String userName = sc.nextLine();
+            String userName = username.nextLine();
+
             System.out.println("Enter your password");
-            String password=sc.nextLine();
-            if (obj.checkLogin(userName,password)){
+            String userPassword = password.nextLine();
+
+            if (obj.checkLogin(userName, userPassword)) {
                 String msg = obj.welcomeScreen();
                 System.out.println(msg);
-                System.out.println("Enter your choice 1-balance, 2-pin change, 3-cash withdraw, 4-mobile update");
-                int choice = sc.nextInt();
+
+                System.out.println("\nEnter your choice\n 1-balance\n 2-pin change\n 3-cash withdraw\n 4-mobile update");
+                int choice = userchoice.nextInt();
+
                 if (choice == 1) {
                     System.out.println(obj.balance());
+
                 } else if (choice == 2) {
                     System.out.println(obj.pinChange());
+
                 } else if (choice == 3) {
                     System.out.println(obj.cashWithdraw());
+
                 } else if (choice == 4) {
                     System.out.println(obj.mobileUpdate());
                 }
+
                 Scanner obj2 = new Scanner(System.in);
+
                 System.out.println("Press y to continue or press any other key to exit");
                 flag = obj2.nextLine();
+
                 if (!flag.equals("y")) {
                     System.out.println("Exiting .....Thanks for Using AtmApp...");
                     break;
                 }
-            }else{
-                String msg=obj.errorScreen();
+            } else {
+                String msg = obj.errorScreen();
                 System.out.println(msg);
             }
 
-
-
-
         }
 
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-}
 }

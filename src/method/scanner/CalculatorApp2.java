@@ -2,7 +2,7 @@ package method.scanner;
 
 import java.util.Scanner;
 
-public class CalAppLoop {
+public class CalculatorApp2 {
     public int add (int a, int b) {
         return a + b;
     }
