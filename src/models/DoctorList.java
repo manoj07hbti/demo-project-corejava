@@ -1,5 +1,7 @@
 package models;
 
+import java.util.Objects;
+
 public class DoctorList {
 
 
@@ -16,7 +18,23 @@ public class DoctorList {
         this.experience = experience;
         this.fees = fees;
     }
-// create getter and setter
+
+    // create Equals and HashCode for Doctor Class
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        DoctorList that = (DoctorList) o;
+        return experience == that.experience && fees == that.fees && Objects.equals(name, that.name) && Objects.equals(specialty, that.specialty);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, specialty, experience, fees);
+    }
+
+
+    // create getter and setter
 
 
     public String getName() {

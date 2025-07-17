@@ -3,18 +3,19 @@ package hashcode;
 import models.Engineer;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Engineer_Hashcode {
 
     public  void Engineer_Data(){
 
-        HashSet<Engineer> EngineerHashcode= new HashSet<>();
+        LinkedHashSet<Engineer> EngineerHashcode= new LinkedHashSet<>();
 
         Engineer s1= new Engineer("Tarun",21,3 ,"CS");
         System.out.println( " Hashcode of S1 is "+s1.hashCode());
-        Engineer s2= new Engineer("rahul",31,8 ,"IT");
+        Engineer s2= new Engineer("Tarun",21,3 ,"CS");
         System.out.println( " Hashcode of S2 is "+s2.hashCode());
-        Engineer s3= new Engineer("jai",23,1 ,"CS");
+        Engineer s3= new Engineer("jai",23,1 ,"IT");
         System.out.println( " Hashcode of S3 is "+s3.hashCode());
         Engineer s4= new Engineer("prince",25,4 ,"IT");
         System.out.println( " Hashcode of S4 is "+s4.hashCode());

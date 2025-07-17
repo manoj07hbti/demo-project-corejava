@@ -11,11 +11,11 @@ public class Student_Hashcode {
 
         HashSet<Student> StudentHashcode= new HashSet<>();
 
-        Student s1= new Student("tarun",21,30.45,"BCA");
+        Student s1= new Student("tarun",30,30.45,"MCA");
         System.out.println( " Hashcode of S1 is "+s1.hashCode());
         Student s2= new Student("ayaan",23,56.80,"BTech");
         System.out.println( " Hashcode of S2 is "+s2.hashCode());
-        Student s3= new Student("nirmal",30,45.50,"MCA");
+        Student s3= new Student("tarun",30,30.45,"MCA");
         System.out.println( " Hashcode of S3 is "+s3.hashCode());
         Student s4= new Student("rohit",12,60.99,"BA");
         System.out.println( " Hashcode of S4 is "+s4.hashCode());
