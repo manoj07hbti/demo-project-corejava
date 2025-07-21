@@ -8,7 +8,7 @@ public class HashMapScanner {
     // Method that takes user input and returns a HashMap
     public HashMap<String, Integer> createMapFromInput() {
         Scanner scanner = new Scanner(System.in);
-        HashMap<String, Integer> map = new HashMap<>();
+        HashMap<String, Integer> courses = new HashMap<>();
 
         System.out.println("You can keep adding entries. Type 'No' when you want to stop.\n");
 
@@ -20,17 +20,17 @@ public class HashMapScanner {
             int value = scanner.nextInt();
             scanner.nextLine(); // consume newline
 
-            map.put(key, value);
+            courses.put(key, value);
 
             System.out.print("Do you want to add another entry? (y/n): ");
-            String choice = scanner.nextLine().trim().toLowerCase();
+            String choice = scanner.nextLine();
 
             if (choice.equalsIgnoreCase("no")) {
                 break;
             }
         }
 
-        return map;
+        return courses;
     }
 
 
@@ -39,6 +39,14 @@ public class HashMapScanner {
         HashMapScanner obj = new HashMapScanner();
 
         HashMap<String, Integer> result =obj.createMapFromInput();
-        System.out.println("\nYour HashMap entries are:" +result);
+        System.out.println("\nYour HashMap entries are:");
+        System.out.println(result);
+
+        // Print entries using a for-each loop
+        System.out.println("\nYour HashMap entries are:");
+        for (String key : result.keySet()) {
+            Integer value = result.get(key);
+            System.out.println(key + " => " + value + " days");
+        }
     }
 }
