@@ -10,6 +10,7 @@ public class EngineerHC
     {
         HashSet <Engineer> engineerHashSet = new HashSet<>();
 
+
         Engineer personOne = new Engineer("Max",50000,"Mechanical");
         System.out.println("Person One HashCode: "+personOne.hashCode());
         Engineer personTwo = new Engineer("Robert", 36000, "Software");
