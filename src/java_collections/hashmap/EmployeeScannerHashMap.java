@@ -25,7 +25,8 @@ public class EmployeeScannerHashMap {
             String companyName = scanner.nextLine();
 
             System.out.print("Enter number of employees in " + companyName + ": ");
-            int employeeCount = Integer.parseInt(scanner.nextLine());
+            int employeeCount = scanner.nextInt();
+            scanner.nextLine();
 
             ArrayList<Employee> employeesList = new ArrayList<>();
 
