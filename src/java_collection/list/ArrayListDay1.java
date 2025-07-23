@@ -1,7 +1,6 @@
-package java_collection;
+package java_collection.list;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ArrayListDay1 {
 
