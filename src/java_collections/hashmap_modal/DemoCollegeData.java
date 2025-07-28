@@ -47,7 +47,7 @@ public class DemoCollegeData {
 
             for(Students var : collegeData.get(key)){
                 // Print all those student with CS branch
-                if(var.getBranch().equals("CS")) {
+                if(var.getRollNo()==21) {
                     System.out.println("Printing Data for College- " + key + " Name:" + var.getName() + " Roll No: " + var.getRollNo() + " Age: " + var.getAge() + " Marks: " + var.getMarks() +" Branch: " + var.getBranch());
                 }
             }
