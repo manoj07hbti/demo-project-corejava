@@ -19,7 +19,7 @@ public class Student {
         System.out.println("Please enter rollNo ");
         int rollNo = Scanner.nextInt();
 
-        StudentList student = new StudentList(name,studentID,age,rollNo);
+        StudentList student = new StudentList(name,studentID ,age,rollNo);
 
         return student;
 
