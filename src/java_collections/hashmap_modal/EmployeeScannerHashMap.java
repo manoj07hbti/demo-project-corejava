@@ -1,4 +1,4 @@
-package java_collections.hashmap.hashmap_modal;
+package java_collections.hashmap_modal;
 
 import model.Employee;
 

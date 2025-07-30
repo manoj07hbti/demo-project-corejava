@@ -1,11 +1,26 @@
 package model;
 
+import java.util.Objects;
+
 public class Student {
 
     String studentId;
     String name;
     long phoneNumber;
     String department;
+
+    //hashcode and Equals
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return phoneNumber == student.phoneNumber && Objects.equals(studentId, student.studentId) && Objects.equals(name, student.name) && Objects.equals(department, student.department);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(studentId, name, phoneNumber, department);
+    }
 
     public Student(String studentId, String name, long phoneNumber, String department) {
         this.studentId = studentId;

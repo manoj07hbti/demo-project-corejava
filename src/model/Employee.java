@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Employee {
 
     String name;
@@ -9,6 +11,18 @@ public class Employee {
 
     // parameterised constructor
 
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return age == employee.age && Objects.equals(name, employee.name) && Objects.equals(empID, employee.empID) && Objects.equals(empDepart, employee.empDepart);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, empID, empDepart);
+    }
 
     public Employee(String name, int age, String empID, String empDepart) {
         this.name = name;
