@@ -7,8 +7,9 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class DepartmentDataScanner {
-    // Method to input employee data for one department
-    public static HashSet<Employee> addEmployees(String deptName) {
+
+    //  method to input employee data for one department
+    public HashSet<Employee> addEmployees(String deptName) {
         Scanner scanner = new Scanner(System.in);
         HashSet<Employee> employeeSet = new HashSet<>();
 
@@ -29,7 +30,7 @@ public class DepartmentDataScanner {
             System.out.print("Department: ");
             String department = scanner.next();
 
-            Employee emp = new Employee(name, age,empId, department);
+            Employee emp = new Employee(name, age, empId, department);
             employeeSet.add(emp);
         }
 
@@ -37,18 +38,20 @@ public class DepartmentDataScanner {
     }
 
     public static void main(String[] args) {
-        // Department-wise Employee sets using Scanner
-        HashSet<Employee> deptA = addEmployees("Dept-A");
-        HashSet<Employee> deptB = addEmployees("Dept-B");
+        // Create object to call non-static method
+        DepartmentDataScanner obj = new DepartmentDataScanner();
+
+        // Call the  method using object
+        HashSet<Employee> deptA = obj.addEmployees("Dept-A");
+        HashSet<Employee> deptB = obj.addEmployees("Dept-B");
 
         // Store departments in a HashMap
         HashMap<String, HashSet<Employee>> departmentData = new HashMap<>();
         departmentData.put("Dept-A", deptA);
         departmentData.put("Dept-B", deptB);
 
-        // Print all HR department employees
-        System.out.println("\nPrinting HR Department Employees:");
-
+        // Print all CS department employees
+        System.out.println("\nPrinting CS Department Employees:");
         for (String key : departmentData.keySet()) {
             for (Employee emp : departmentData.get(key)) {
                 if (emp.getEmpDepart().equalsIgnoreCase("CS")) {
