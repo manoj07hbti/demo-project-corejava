@@ -37,6 +37,7 @@ public class DepartmentDataScanner {
         return employeeSet;
     }
 
+    // Main method
     public static void main(String[] args) {
         // Create object to call non-static method
         DepartmentDataScanner obj = new DepartmentDataScanner();
