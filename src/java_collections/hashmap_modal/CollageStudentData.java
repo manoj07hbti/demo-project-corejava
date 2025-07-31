@@ -1,10 +1,6 @@
 package java_collections.hashmap_modal;
 
-
-
 import model.Students;
-
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
