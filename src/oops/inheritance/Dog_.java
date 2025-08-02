@@ -1,6 +1,4 @@
-package oops.inheritance.multilevelinheritance;
-
-import oops.inheritance.DemoInheritanceAnimal;
+package oops.inheritance;
 
 public class Dog_ extends DemoInheritanceAnimal {
 
