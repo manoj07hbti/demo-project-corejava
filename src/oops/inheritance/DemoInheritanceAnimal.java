@@ -1,11 +1,9 @@
 package oops.inheritance;
 
-public class DemoInheritanceAnimal {
+public abstract class DemoInheritanceAnimal {
 
 
-    public void eat() {
-        System.out.println("This animal eats food.");
-    }
+    public abstract void eat();
 
     public void drink() {
         System.out.println("This Animal drinks water.");

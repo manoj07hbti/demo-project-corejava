@@ -12,4 +12,9 @@ public class Dog  extends DemoInheritanceAnimal{
         obj.eat();
         obj.runs();
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

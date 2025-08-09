@@ -7,4 +7,9 @@ public class Dog_ extends DemoInheritanceAnimal {
         obj.eat();
         obj.drink();
     }
+
+    @Override
+    public void eat() {
+        System.out.println("THis is Updated Method");
+    }
 }
