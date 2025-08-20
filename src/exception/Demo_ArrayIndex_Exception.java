@@ -19,5 +19,6 @@ public class Demo_ArrayIndex_Exception {
     public static void main(String[] args) {
         Demo_ArrayIndex_Exception obj= new Demo_ArrayIndex_Exception();
         obj.Array();
+        
     }
 }
