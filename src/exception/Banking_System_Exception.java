@@ -106,7 +106,7 @@ public class Banking_System_Exception {
         // Menu
         public void startBanking() {
             while (true) {
-                System.out.println("\n===== ZBanking System =====");
+                System.out.println("\n===== HDFC Bank =====");
                 System.out.println("1. Create Account");
                 System.out.println("2. Deposit");
                 System.out.println("3. Withdraw");
