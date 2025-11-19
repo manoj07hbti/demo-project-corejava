@@ -16,9 +16,9 @@ public class ListGenerics {
             System.out.println("Please enter Student name :");
             String studentName=scanner.nextLine();
             names.add(studentName);
-            System.out.println("Do you want to enter more names, press Y to continue or any other key to exit");
+            System.out.println("Do you want to enter more names, press y to continue or any other key to exit");
             String choice=scanner.nextLine();
-            if (!(choice.equals("Y")==true)){
+            if (!(choice.equals("y"))){
                 flag=false;
             }
         }
@@ -39,7 +39,7 @@ public class ListGenerics {
             System.out.println("Do you want to enter more names, press Y to continue or any other key to exit");
             String choice=scanner1.nextLine();
 
-            if (!(choice.equals("Y")==true)){
+            if (!(choice.equals("Y"))){
                 flag=false;
             }
         }
